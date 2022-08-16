@@ -40,6 +40,8 @@ button {
   border: none;
   width: 4rem;
   height: 4rem;
+  margin-left: 1rem;
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -57,12 +59,12 @@ button {
 
 .item {
   text-align: justify;
-  margin: 1rem;
   font-size: 2rem;
   background-color: rgb (222, 221, 221);
   color: rgb (109, 109, 105);
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .item p {
@@ -86,4 +88,42 @@ button {
 
 .done {
   text-decoration: line-through;
+}
+
+/*
+
+mobile styles 
+
+*/
+
+@media (min-width: 320px) and (max-width: 1440px){
+  #todo-list {
+    padding: 2rem;
+  }
+
+  #todo-list input {
+    font-size: 1rem;
+  }
+
+  #addButton {
+    width: 2rem;
+    height: 2rem;
+    
+  }
+  button {
+    align-self: center;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .item {
+    font-size: 1.5rem;
+  }
+  .item button.btn-archive {
+    font-size: 1.5rem;
+    }
+    .item button.btn-delete {
+    font-size: 1.5rem;
+    }  
+
 }
