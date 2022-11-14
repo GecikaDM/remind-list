@@ -97,8 +97,15 @@ mobile styles
 */
 
 @media (min-width: 320px) and (max-width: 1440px){
+
+  .banniere-title {
+    margin-bottom: 3rem;
+  }
+
   #todo-list {
-    padding: 2rem;
+    padding: 2.75rem;
+    width: 80%;
+    max-width: 100%;
   }
 
   #todo-list input {
@@ -122,8 +129,11 @@ mobile styles
   .item button.btn-archive {
     font-size: 1.5rem;
     }
-    .item button.btn-delete {
+  .item button.btn-delete {
     font-size: 1.5rem;
-    }  
+  }  
+  .item p {
+    padding: 0;
+  }
 
 }
