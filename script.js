@@ -14,10 +14,10 @@ form.addEventListener('submit', function(e) {
               <div class="item"> 
                     <p> ${todoValue} </p>
                     <button class="btn-delete">
-                      <i class="fas fa-trash-alt"></i>
+                      <i class="fas fa-trash-alt" title="delete it"></i>
                     </button>
                     <button class="btn-archive">
-                      <i class="fas fa-check-circle"></i>
+                      <i class="fas fa-check-circle" title="done!"></i>
                     </button>
                 </div>
               `
